@@ -536,7 +536,7 @@ if (User('PROFILE') != 'parent') {
     $img_info=$img_info[1]['IMG_CONTENT'];
     }
     if($img_info!='')
-      $user_picture = '<a href="javascript:void(0)"><IMG src="data:image/jpeg;base64,'. base64_encode($img_info) . '" class="img-circle img-responsive"></a>';
+        $user_picture = '<a href="javascript:void(0)"><IMG SRC="assets/images/admin_avatar.png" class="img-circle img-responsive"></a>';
     else
         $user_picture = '<a href="javascript:void(0)"><IMG SRC="assets/no_avtar.png" class="img-circle img-responsive"></a>';
 //    if (($StudentPicturesPath . UserStudentID() . '.JPG' || ($UserPicturesPath . UserID() . '.JPG'))) {
